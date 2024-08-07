@@ -90,16 +90,25 @@ public class AreaCodes {
         System.out.println("Rank: 8th largest city in US");
         System.out.println("Population: 3.4 million");
         System.out.println("Zip Codes: 619, 858");
-        System.out.println("Fun fact: San Diego (SD) is known as the \"🇺🇸's Finest City\".");
+        System.out.println("Fun fact: San Diego (SD) is known as \"🇺🇸's Finest City\".");
         }
 
-        // 7
+        // 9
         public static void dallas(){
         System.out.println("City: Dallas, Texas");
         System.out.println("Rank: 9th largest city in US");
         System.out.println("Population: 7.5 million");
         System.out.println("Zip Codes: 214, 469, 972, 945");
         System.out.println("Fun fact: Dallas (DAL) is known as the \"Big D\".");
+        }
+
+        // 10
+        public static void sanJose(){
+        System.out.println("City: Dallas, Texas");
+        System.out.println("Rank: 10th largest city in US");
+        System.out.println("Population: 2 million");
+        System.out.println("Zip Codes: 408, 669");
+        System.out.println("Fun fact: San Jose (SJS) is known as the \"Capital of Silicon Valley\".");
         }
 
 
@@ -167,16 +176,20 @@ public class AreaCodes {
                 sanAntonio();
             }
 
-            // Dallas
-            if (areaCode == 214 || areaCode == 469 || areaCode == 972 || areaCode == 945){
-                dallas();
-            }
-
             // San Diego
             if (areaCode == 619 || areaCode == 858){
                 sanDiego();
             }
 
+            // Dallas
+            if (areaCode == 214 || areaCode == 469 || areaCode == 972 || areaCode == 945){
+                dallas();
+            }
+
+            // San Jose
+            if (areaCode == 408 || areaCode == 669){
+                sanJose();
+            }
 
         }
     }
