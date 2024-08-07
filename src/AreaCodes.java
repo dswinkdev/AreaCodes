@@ -203,6 +203,7 @@ public class AreaCodes {
             if (areaCode < 100 || areaCode > 999){
                 System.out.println("Oops... try using only 3 digits.");
 
+
             } else {
                 // Call the appropriate method based on area code
                 switch (areaCode) {
