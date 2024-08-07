@@ -72,7 +72,16 @@ public class AreaCodes {
         System.out.println("Rank: 6th largest city in US");
         System.out.println("Population: 6.2 million");
         System.out.println("Zip Codes: 215, 267, 445");
-        System.out.println("Fun fact: Phoenix (PHX) is known as the \"City of Brotherly ❤️\".");
+        System.out.println("Fun fact: Philly (PHL) is known as the \"City of Brotherly ❤️\".");
+        }
+
+        // 7
+        public static void sanAntonio(){
+        System.out.println("City: San Antonio, Texas");
+        System.out.println("Rank: 7th largest city in US");
+        System.out.println("Population: 2.6 million");
+        System.out.println("Zip Codes: 210, 726");
+        System.out.println("Fun fact: San Antonio (SATX) is known as the \"River 🌊 City️\".");
         }
 
 
@@ -133,6 +142,11 @@ public class AreaCodes {
             // Philly
             if (areaCode == 215 || areaCode == 267 || areaCode == 445){
                 philly();
+            }
+
+            // San Antonio
+            if (areaCode == 210 || areaCode == 726){
+                sanAntonio();
             }
 
 
