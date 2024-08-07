@@ -66,6 +66,15 @@ public class AreaCodes {
         System.out.println("Fun fact: Phoenix (PHX) is known as the \"Valley of the ☀️\".");
         }
 
+        // 6
+        public static void philly(){
+        System.out.println("City: Philadelphia, Pennsylvania");
+        System.out.println("Rank: 6th largest city in US");
+        System.out.println("Population: 6.2 million");
+        System.out.println("Zip Codes: 215, 267, 445");
+        System.out.println("Fun fact: Phoenix (PHX) is known as the \"City of Brotherly ❤️\".");
+        }
+
 
 
     //main method
@@ -119,6 +128,11 @@ public class AreaCodes {
             // Phoenix
             if (areaCode == 602 || areaCode == 480 || areaCode == 623){
                 phoenix();
+            }
+
+            // Philly
+            if (areaCode == 215 || areaCode == 267 || areaCode == 445){
+                philly();
             }
 
 
