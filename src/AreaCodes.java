@@ -12,7 +12,7 @@ public class AreaCodes {
 
         // dev's city
         public static void atlanta(){
-        System.out.println("City: Atlanta");
+        System.out.println("City: Atlanta, Georgia");
         System.out.println("Rank: 38th largest city in US");
         System.out.println("Population: 6 million (2022)");
         System.out.println("Area Codes: 404, 470, 678, 770");
@@ -21,7 +21,7 @@ public class AreaCodes {
 
         // Cities ranked highest to lowest
         public static void newYork(){
-        System.out.println("City: New York");
+        System.out.println("City: New York, New York");
         System.out.println("Rank: 1st largest city in US");
         System.out.println("Population: 19.9 million");
         System.out.println("Zip Codes: 212, 646, 332, 917, 718, 347, 929 ");
@@ -29,7 +29,7 @@ public class AreaCodes {
         }
 
         public static void losAngeles(){
-        System.out.println("City: Los Angeles");
+        System.out.println("City: Los Angeles, California");
         System.out.println("Rank: 2nd largest city in US");
         System.out.println("Population: 13.2 million");
         System.out.println("Zip Codes: 212, 646, 332, 917, 718, 347, 929 ");
@@ -37,11 +37,19 @@ public class AreaCodes {
         }
 
         public static void chicago(){
-        System.out.println("City: Chicago");
+        System.out.println("City: Chicago, Illinois");
         System.out.println("Rank: 3th largest city in US");
         System.out.println("Population: 9.5 million");
         System.out.println("Zip Codes: 312, 773 ");
         System.out.println("Fun fact: Chicago (CHI) is known as the \"Windy City\".");
+        }
+
+        public static void houston(){
+        System.out.println("City: Houston, Texas");
+        System.out.println("Rank: 4th largest city in US");
+        System.out.println("Population: 7.1 million");
+        System.out.println("Zip Codes: 713, 281, 832, 346");
+        System.out.println("Fun fact: Houston (HOU) is known as the \"Space City\".");
         }
 
 
@@ -95,6 +103,10 @@ public class AreaCodes {
                 chicago();
             }
 
+            // Houston
+            if (areaCode == 713 || areaCode == 281 || areaCode == 832 || areaCode == 346){
+                houston();
+            }
 
 
         }
