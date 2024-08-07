@@ -2,44 +2,49 @@ import java.util.Scanner;
 
 public class AreaCodes {
 
-    public static void intro(){
+        // intro
+        public static void intro(){
         System.out.println("✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯");
         System.out.println(":::::::: Area  🇺🇸 Codes :::::::::");
         System.out.println("✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯");
         System.out.println("Major US City Area Code Directory");
-    }
+        }
 
-    public static void atlanta(){
+        // dev's city
+        public static void atlanta(){
         System.out.println("City: Atlanta");
-        System.out.println("Rank: 8th largest city in US");
+        System.out.println("Rank: 38th largest city in US");
         System.out.println("Population: 6 million (2022)");
         System.out.println("Area Codes: 404, 470, 678, 770");
         System.out.println("Fun fact: Atlanta (ATL) is known as the \"City in the Forest\".");
-    }
+        }
 
-    public static void newYork(){
+        // Cities ranked highest to lowest
+        public static void newYork(){
         System.out.println("City: New York");
-        System.out.println("Rank: 4th largest city in US");
-        System.out.println("Population: 8.336 million (2022)");
+        System.out.println("Rank: 1st largest city in US");
+        System.out.println("Population: 19.9 million");
         System.out.println("Zip Codes: 212, 646, 332, 917, 718, 347, 929 ");
-        System.out.println("Fun fact: Chicago (CHI) is known as the \"Big Apple\".");
-    }
+        System.out.println("Fun fact: Chicago (NY) is known as the \"Big Apple\".");
+        }
 
-    public static void chicago(){
+        public static void losAngeles(){
+        System.out.println("City: Los Angeles");
+        System.out.println("Rank: 2nd largest city in US");
+        System.out.println("Population: 13.2 million");
+        System.out.println("Zip Codes: 212, 646, 332, 917, 718, 347, 929 ");
+        System.out.println("Fun fact: Los Angeles (LA) is known as the \"City of Angels\".");
+        }
+
+        public static void chicago(){
         System.out.println("City: Chicago");
         System.out.println("Rank: 3th largest city in US");
-        System.out.println("Population: 2.665 million (2022)");
+        System.out.println("Population: 9.5 million");
         System.out.println("Zip Codes: 312, 773 ");
         System.out.println("Fun fact: Chicago (CHI) is known as the \"Windy City\".");
-    }
+        }
 
-    public static void losAngeles(){
-        System.out.println("City: Los Angeles");
-        System.out.println("Rank: 4th largest city in US");
-        System.out.println("Population: 3.822 million (2022)");
-        System.out.println("Zip Codes: 212, 646, 332, 917, 718, 347, 929 ");
-        System.out.println("Fun fact: Chicago (CHI) is known as the \"City of Angels\".");
-    }
+
 
     //main method
     public static void main(String[] args) {
@@ -73,16 +78,24 @@ public class AreaCodes {
                 atlanta();
             }
 
+            // New York
+            if (areaCode == 212 || areaCode == 646 || areaCode == 332 || areaCode == 917
+                    || areaCode == 718 || areaCode == 347 || areaCode == 929){
+                newYork();
+            }
+
+            // Los Angeles
+            if (areaCode == 213 || areaCode == 323 || areaCode == 310 || areaCode == 424
+                    || areaCode == 818 || areaCode == 747){
+                losAngeles();
+            }
+
             // Chicago
             if (areaCode == 312 || areaCode == 773){
                 chicago();
             }
 
-            // New York
-            if (areaCode == 212 || areaCode == 646 || areaCode == 332 || areaCode == 917
-            || areaCode == 718 || areaCode == 347 || areaCode == 929){
-                newYork();
-            }
+
 
         }
     }
