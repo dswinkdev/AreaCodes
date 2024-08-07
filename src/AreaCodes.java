@@ -3,16 +3,24 @@ import java.util.Scanner;
 public class AreaCodes {
 
     public static void intro(){
-        System.out.println("✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯");
-        System.out.println("::: Area  🇺🇸 Codes :::");
-        System.out.println("✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯");
-        System.out.println("(look up any area code)");
+        System.out.println("✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯");
+        System.out.println(":::::::: Area  🇺🇸 Codes :::::::::");
+        System.out.println("✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯");
+        System.out.println("Major US City Area Code Directory");
     }
 
     public static void atlanta(){
-        System.out.println("Atlanta");
-        System.out.println("Population: ");
-        System.out.println("Fun fact: ");
+        System.out.println("City: Atlanta");
+        System.out.println("Population: 6 million (2022)");
+        System.out.println("Zip Codes: 404, 470, 678, 770");
+        System.out.println("Fun fact: Atlanta (ATL) is known as the \"City in the Forest\".");
+    }
+
+    public static void chicago(){
+        System.out.println("City: Chicago");
+        System.out.println("Population: 2.665 million (2022)");
+        System.out.println("Zip Codes: 312, 773 ");
+        System.out.println("Fun fact: Chicago (CHI) is known as the \"Windy City\".");
     }
 
     //main method
@@ -37,13 +45,18 @@ public class AreaCodes {
             areaCode = input.nextInt();
 
             // invalid area code
-            if (areaCode <= 100 && areaCode >= 999){
-                System.out.println("Invalid area code");
+            if (areaCode < 100 || areaCode > 999){
+                System.out.println("Oops... try using only 3 digits");
             }
 
             // Atlanta
             if (areaCode == 404 || areaCode == 770 || areaCode == 678 || areaCode == 470){
                 atlanta();
+            }
+
+            // Chicago
+            if (areaCode == 312 || areaCode == 773){
+                chicago();
             }
 
         }
