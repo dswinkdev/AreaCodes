@@ -124,6 +124,30 @@ public class AreaCodes {
         System.out.println("Fun fact: Fort Worth (DFW) is known as \"Cow 🐮Town\".");
     }
 
+    public static void columbus(){
+        System.out.println("City: Columbus, Ohio");
+        System.out.println("Rank: 15th largest city in US");
+        System.out.println("Population: 2.2 million");
+        System.out.println("Area Code: 614, 380");
+        System.out.println("Fun fact: Columbus (CBUS) is known as \"The Arch City\".");
+    }
+
+    public static void indianapolis(){
+        System.out.println("City: Indianapolis, Indiana");
+        System.out.println("Rank: 16th largest city in US");
+        System.out.println("Population: 2 million");
+        System.out.println("Area Code: 317, 463");
+        System.out.println("Fun fact: Indianapolis (IND) is known as \"The Indy 🏁\".");
+    }
+
+    public static void charlotte(){
+        System.out.println("City: Charlotte, North Carolina");
+        System.out.println("Rank: 17th largest city in US");
+        System.out.println("Population: 2.7 million");
+        System.out.println("Area Code: 704, 980");
+        System.out.println("Fun fact: Charlotte (IND) is known as the \"Queen 👸🏽 City\".");
+    }
+
     // main method
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -215,6 +239,17 @@ public class AreaCodes {
                     case 682:
                         fortWorth();
                         break;
+                    case 614:
+                    case 380:
+                         columbus();
+                         break;
+                    case 317:
+                    case 463:
+                        indianapolis();
+                        break;
+                    case 704:
+                    case 980:
+                        charlotte();
                     default:
                         System.out.println("Area code not found.");
                 }
