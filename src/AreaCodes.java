@@ -21,11 +21,17 @@ public class AreaCodes {
 
         int areaCode = 0;
 
-        while(areaCode != -1)
-        // user input
-        System.out.println("\nArea code: ");
-        areaCode = input.nextInt();
+        while(areaCode != -1) {
 
+            // user input
+            System.out.print("\nArea code: ");
+            areaCode = input.nextInt();
+
+            if (areaCode != 3){
+                System.out.println("Invalid area code");
+            }
+
+        }
     }
 
 }
