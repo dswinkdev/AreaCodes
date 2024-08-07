@@ -84,6 +84,24 @@ public class AreaCodes {
         System.out.println("Fun fact: San Antonio (SATX) is known as the \"River 🌊 City️\".");
         }
 
+        // 8
+        public static void sanDiego(){
+        System.out.println("City: San Diego, California");
+        System.out.println("Rank: 8th largest city in US");
+        System.out.println("Population: 3.4 million");
+        System.out.println("Zip Codes: 619, 858");
+        System.out.println("Fun fact: San Diego (SD) is known as the \"🇺🇸's Finest City\".");
+        }
+
+        // 7
+        public static void dallas(){
+        System.out.println("City: Dallas, Texas");
+        System.out.println("Rank: 9th largest city in US");
+        System.out.println("Population: 7.5 million");
+        System.out.println("Zip Codes: 214, 469, 972, 945");
+        System.out.println("Fun fact: Dallas (DAL) is known as the \"Big D\".");
+        }
+
 
 
     //main method
@@ -147,6 +165,16 @@ public class AreaCodes {
             // San Antonio
             if (areaCode == 210 || areaCode == 726){
                 sanAntonio();
+            }
+
+            // Dallas
+            if (areaCode == 214 || areaCode == 469 || areaCode == 972 || areaCode == 945){
+                dallas();
+            }
+
+            // San Diego
+            if (areaCode == 619 || areaCode == 858){
+                sanDiego();
             }
 
 
