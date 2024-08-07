@@ -2,196 +2,212 @@ import java.util.Scanner;
 
 public class AreaCodes {
 
-        // intro
-        public static void intro(){
+    // intro
+    public static void intro(){
         System.out.println("✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯");
         System.out.println(":::::::: Area  🇺🇸 Codes :::::::::");
         System.out.println("✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯✯");
         System.out.println("Major US City Area Code Directory");
-        }
+    }
 
-        // dev's city
-        public static void atlanta(){
-        System.out.println("City: Atlanta, Georgia");
-        System.out.println("Rank: 38th largest city in US");
-        System.out.println("Population: 6 million (2022)");
-        System.out.println("Area Codes: 404, 470, 678, 770");
-        System.out.println("Fun fact: Atlanta (ATL) is known as the \"City in the Forest 🌳🌳🌳\".");
-        }
+    // Cities ranked highest to lowest
 
-        // Cities ranked highest to lowest
-
-        // 1
-        public static void newYork(){
+    public static void newYork(){
         System.out.println("City: New York, New York");
         System.out.println("Rank: 1st largest city in US");
         System.out.println("Population: 19.9 million");
-        System.out.println("Zip Codes: 212, 646, 332, 917, 718, 347, 929");
+        System.out.println("Area Codes: 212, 646, 332, 917, 718, 347, 929");
         System.out.println("Fun fact: New York (NY) is known as the \"Big 🍎 Apple\".");
-        }
+    }
 
-        // 2
-        public static void losAngeles(){
+    public static void losAngeles(){
         System.out.println("City: Los Angeles, California");
         System.out.println("Rank: 2nd largest city in US");
         System.out.println("Population: 13.2 million");
-        System.out.println("Zip Codes: 213, 323, 310, 424, 818, 747");
+        System.out.println("Area Codes: 213, 323, 310, 424, 818, 747");
         System.out.println("Fun fact: Los Angeles (LA) is known as the \"City of Angels 👼🏿👼🏼👼🏾👼🏻👼🏽\".");
-        }
+    }
 
-        // 3
-        public static void chicago(){
+    public static void chicago(){
         System.out.println("City: Chicago, Illinois");
-        System.out.println("Rank: 3th largest city in US");
+        System.out.println("Rank: 3rd largest city in US");
         System.out.println("Population: 9.5 million");
-        System.out.println("Zip Codes: 312, 773");
+        System.out.println("Area Codes: 312, 773");
         System.out.println("Fun fact: Chicago (CHI) is known as the \"Windy 🌬️City\".");
-        }
+    }
 
-        // 4
-        public static void houston(){
+    public static void houston(){
         System.out.println("City: Houston, Texas");
         System.out.println("Rank: 4th largest city in US");
         System.out.println("Population: 7.1 million");
-        System.out.println("Zip Codes: 713, 281, 832, 346");
+        System.out.println("Area Codes: 713, 281, 832, 346");
         System.out.println("Fun fact: Houston (HOU) is known as the \"Space 🚀City\".");
-        }
+    }
 
-        // 5
-        public static void phoenix(){
+    public static void phoenix(){
         System.out.println("City: Phoenix, Arizona");
         System.out.println("Rank: 5th largest city in US");
         System.out.println("Population: 5.2 million");
-        System.out.println("Zip Codes: 602, 480, 623");
+        System.out.println("Area Codes: 602, 480, 623");
         System.out.println("Fun fact: Phoenix (PHX) is known as the \"Valley of the ☀️\".");
-        }
+    }
 
-        // 6
-        public static void philly(){
-        System.out.println("City: Philadelphia, Pennsylvania");
+    public static void atlanta(){
+        System.out.println("City: Atlanta, Georgia");
         System.out.println("Rank: 6th largest city in US");
-        System.out.println("Population: 6.2 million");
-        System.out.println("Zip Codes: 215, 267, 445");
-        System.out.println("Fun fact: Philly (PHL) is known as the \"City of Brotherly ❤️\".");
-        }
+        System.out.println("Population: 6 million");
+        System.out.println("Area Codes: 404, 470, 678, 770");
+        System.out.println("Fun fact: Atlanta (ATL) is known as the \"City in the Forest 🌳🌳🌳\".");
+    }
 
-        // 7
-        public static void sanAntonio(){
-        System.out.println("City: San Antonio, Texas");
+    public static void philly(){
+        System.out.println("City: Philadelphia, Pennsylvania");
         System.out.println("Rank: 7th largest city in US");
-        System.out.println("Population: 2.6 million");
-        System.out.println("Zip Codes: 210, 726");
-        System.out.println("Fun fact: San Antonio (SATX) is known as the \"River 🌊 City️\".");
-        }
+        System.out.println("Population: 6.2 million");
+        System.out.println("Area Codes: 215, 267, 445");
+        System.out.println("Fun fact: Philly (PHL) is known as the \"City of Brotherly ❤️\".");
+    }
 
-        // 8
-        public static void sanDiego(){
-        System.out.println("City: San Diego, California");
+    public static void sanAntonio(){
+        System.out.println("City: San Antonio, Texas");
         System.out.println("Rank: 8th largest city in US");
-        System.out.println("Population: 3.4 million");
-        System.out.println("Zip Codes: 619, 858");
-        System.out.println("Fun fact: San Diego (SD) is known as \"🇺🇸's Finest City\".");
-        }
+        System.out.println("Population: 2.6 million");
+        System.out.println("Area Codes: 210, 726");
+        System.out.println("Fun fact: San Antonio (SATX) is known as the \"River 🌊 City️\".");
+    }
 
-        // 9
-        public static void dallas(){
-        System.out.println("City: Dallas, Texas");
+    public static void sanDiego(){
+        System.out.println("City: San Diego, California");
         System.out.println("Rank: 9th largest city in US");
-        System.out.println("Population: 7.5 million");
-        System.out.println("Zip Codes: 214, 469, 972, 945");
-        System.out.println("Fun fact: Dallas (DAL) is known as the \"Big D\".");
-        }
+        System.out.println("Population: 3.4 million");
+        System.out.println("Area Codes: 619, 858");
+        System.out.println("Fun fact: San Diego (SD) is known as \"🇺🇸's Finest City\".");
+    }
 
-        // 10
-        public static void sanJose(){
+    public static void dallas(){
         System.out.println("City: Dallas, Texas");
         System.out.println("Rank: 10th largest city in US");
+        System.out.println("Population: 7.5 million");
+        System.out.println("Area Codes: 214, 469, 972, 945");
+        System.out.println("Fun fact: Dallas (DAL) is known as the \"Big D\".");
+    }
+
+    public static void sanJose(){
+        System.out.println("City: San Jose, California");
+        System.out.println("Rank: 10th largest city in US");
         System.out.println("Population: 2 million");
-        System.out.println("Zip Codes: 408, 669");
+        System.out.println("Area Codes: 408, 669");
         System.out.println("Fun fact: San Jose (SJS) is known as the \"Capital of Silicon Valley\".");
-        }
+    }
 
+    public static void austin(){
+        System.out.println("City: Austin, Texas");
+        System.out.println("Rank: 11th largest city in US");
+        System.out.println("Population: 2 million");
+        System.out.println("Area Codes: 512, 737");
+        System.out.println("Fun fact: Austin (AUS) is known as the \"Live 🎶🎵🎶 Capital of the World\".");
+    }
 
+    public static void jacksonville(){
+        System.out.println("City: Jacksonville, Florida");
+        System.out.println("Rank: 12th largest city in US");
+        System.out.println("Population: 1.6 million");
+        System.out.println("Area Code: 904");
+        System.out.println("Fun fact: Jacksonville (JAX) is known as the \"Bold New 🌆 of the South\".");
+    }
 
-    //main method
+    // main method
     public static void main(String[] args) {
-
         Scanner input = new Scanner(System.in);
-
         intro();
 
         int areaCode = 0;
 
         while(areaCode != -1) {
-
             // user input
-            System.out.println("\npress -1 to exit");
+            System.out.println("\nPress -1 to exit");
             System.out.print("Area code: ");
             areaCode = input.nextInt();
 
             // invalid area code
             if (areaCode < 100 || areaCode > 999){
-                System.out.println("Oops... try using only 3 digits");
+                System.out.println("Oops... try using only 3 digits.");
+            } else {
+                // Call the appropriate method based on area code
+                switch (areaCode) {
+                    case 404:
+                    case 470:
+                    case 678:
+                    case 770:
+                        atlanta();
+                        break;
+                    case 212:
+                    case 646:
+                    case 332:
+                    case 917:
+                    case 718:
+                    case 347:
+                    case 929:
+                        newYork();
+                        break;
+                    case 213:
+                    case 323:
+                    case 310:
+                    case 424:
+                    case 818:
+                    case 747:
+                        losAngeles();
+                        break;
+                    case 312:
+                    case 773:
+                        chicago();
+                        break;
+                    case 713:
+                    case 281:
+                    case 832:
+                    case 346:
+                        houston();
+                        break;
+                    case 602:
+                    case 480:
+                    case 623:
+                        phoenix();
+                        break;
+                    case 215:
+                    case 267:
+                    case 445:
+                        philly();
+                        break;
+                    case 210:
+                    case 726:
+                        sanAntonio();
+                        break;
+                    case 619:
+                    case 858:
+                        sanDiego();
+                        break;
+                    case 214:
+                    case 469:
+                    case 972:
+                    case 945:
+                        dallas();
+                        break;
+                    case 408:
+                    case 669:
+                        sanJose();
+                        break;
+                    case 512:
+                    case 737:
+                        austin();
+                        break;
+                    case 904:
+                        jacksonville();
+                        break;
+                    default:
+                        System.out.println("Area code not found.");
+                }
             }
-
-            // Atlanta
-            if (areaCode == 404 || areaCode == 770 || areaCode == 678 || areaCode == 470){
-                atlanta();
-            }
-
-            // New York
-            if (areaCode == 212 || areaCode == 646 || areaCode == 332 || areaCode == 917
-                    || areaCode == 718 || areaCode == 347 || areaCode == 929){
-                newYork();
-            }
-
-            // Los Angeles
-            if (areaCode == 213 || areaCode == 323 || areaCode == 310 || areaCode == 424
-                    || areaCode == 818 || areaCode == 747){
-                losAngeles();
-            }
-
-            // Chicago
-            if (areaCode == 312 || areaCode == 773){
-                chicago();
-            }
-
-            // Houston
-            if (areaCode == 713 || areaCode == 281 || areaCode == 832 || areaCode == 346){
-                houston();
-            }
-
-            // Phoenix
-            if (areaCode == 602 || areaCode == 480 || areaCode == 623){
-                phoenix();
-            }
-
-            // Philly
-            if (areaCode == 215 || areaCode == 267 || areaCode == 445){
-                philly();
-            }
-
-            // San Antonio
-            if (areaCode == 210 || areaCode == 726){
-                sanAntonio();
-            }
-
-            // San Diego
-            if (areaCode == 619 || areaCode == 858){
-                sanDiego();
-            }
-
-            // Dallas
-            if (areaCode == 214 || areaCode == 469 || areaCode == 972 || areaCode == 945){
-                dallas();
-            }
-
-            // San Jose
-            if (areaCode == 408 || areaCode == 669){
-                sanJose();
-            }
-
         }
+        input.close();
     }
-
 }
