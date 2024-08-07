@@ -110,10 +110,18 @@ public class AreaCodes {
 
     public static void jacksonville(){
         System.out.println("City: Jacksonville, Florida");
-        System.out.println("Rank: 12th largest city in US");
+        System.out.println("Rank: 13th largest city in US");
         System.out.println("Population: 1.6 million");
         System.out.println("Area Code: 904");
         System.out.println("Fun fact: Jacksonville (JAX) is known as the \"Bold New 🌆 of the South\".");
+    }
+
+    public static void fortWorth(){
+        System.out.println("City: Jacksonville, Florida");
+        System.out.println("Rank: 14th largest city in US");
+        System.out.println("Population: 2.8 million");
+        System.out.println("Area Code: 817, 682");
+        System.out.println("Fun fact: Fort Worth (DFW) is known as \"Cow 🐮Town\".");
     }
 
     // main method
@@ -202,6 +210,10 @@ public class AreaCodes {
                         break;
                     case 904:
                         jacksonville();
+                        break;
+                    case 817:
+                    case 682:
+                        fortWorth();
                         break;
                     default:
                         System.out.println("Area code not found.");
