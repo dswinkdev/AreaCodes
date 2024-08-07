@@ -193,9 +193,16 @@ public class AreaCodes {
             System.out.print("Area code: ");
             areaCode = input.nextInt();
 
+            // exit condition
+            if (areaCode == -1) {
+                System.out.println("Thx for stopping by! 👋🏽");
+                break;
+            }
+
             // invalid area code
             if (areaCode < 100 || areaCode > 999){
                 System.out.println("Oops... try using only 3 digits.");
+
             } else {
                 // Call the appropriate method based on area code
                 switch (areaCode) {
