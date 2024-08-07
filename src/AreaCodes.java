@@ -94,7 +94,7 @@ public class AreaCodes {
 
     public static void sanJose(){
         System.out.println("City: San Jose, California");
-        System.out.println("Rank: 10th largest city in US");
+        System.out.println("Rank: 11th largest city in US");
         System.out.println("Population: 2 million");
         System.out.println("Area Codes: 408, 669");
         System.out.println("Fun fact: San Jose (SJS) is known as the \"Capital of Silicon Valley\".");
@@ -102,7 +102,7 @@ public class AreaCodes {
 
     public static void austin(){
         System.out.println("City: Austin, Texas");
-        System.out.println("Rank: 11th largest city in US");
+        System.out.println("Rank: 12th largest city in US");
         System.out.println("Population: 2 million");
         System.out.println("Area Codes: 512, 737");
         System.out.println("Fun fact: Austin (AUS) is known as the \"Live 🎶🎵🎶 Capital of the World\".");
@@ -117,18 +117,18 @@ public class AreaCodes {
     }
 
     public static void fortWorth(){
-        System.out.println("City: Jacksonville, Florida");
+        System.out.println("City: Fort Worth, Texas");
         System.out.println("Rank: 14th largest city in US");
         System.out.println("Population: 2.8 million");
-        System.out.println("Area Code: 817, 682");
-        System.out.println("Fun fact: Fort Worth (DFW) is known as \"Cow 🐮Town\".");
+        System.out.println("Area Codes: 817, 682");
+        System.out.println("Fun fact: Fort Worth (FW) is known as \"Cow 🐮Town\".");
     }
 
     public static void columbus(){
         System.out.println("City: Columbus, Ohio");
         System.out.println("Rank: 15th largest city in US");
         System.out.println("Population: 2.2 million");
-        System.out.println("Area Code: 614, 380");
+        System.out.println("Area Codes: 614, 380");
         System.out.println("Fun fact: Columbus (CBUS) is known as \"The Arch City\".");
     }
 
@@ -136,7 +136,7 @@ public class AreaCodes {
         System.out.println("City: Indianapolis, Indiana");
         System.out.println("Rank: 16th largest city in US");
         System.out.println("Population: 2 million");
-        System.out.println("Area Code: 317, 463");
+        System.out.println("Area Codes: 317, 463");
         System.out.println("Fun fact: Indianapolis (IND) is known as \"The Indy 🏁\".");
     }
 
@@ -144,8 +144,40 @@ public class AreaCodes {
         System.out.println("City: Charlotte, North Carolina");
         System.out.println("Rank: 17th largest city in US");
         System.out.println("Population: 2.7 million");
-        System.out.println("Area Code: 704, 980");
-        System.out.println("Fun fact: Charlotte (IND) is known as the \"Queen 👸🏽 City\".");
+        System.out.println("Area Codes: 704, 980");
+        System.out.println("Fun fact: Charlotte (CLT) is known as the \"Queen 👸🏽 City\".");
+    }
+
+    public static void sanFrancisco(){
+        System.out.println("City: San Francisco, California");
+        System.out.println("Rank: 18th largest city in US");
+        System.out.println("Population: 4.7 million");
+        System.out.println("Area Codes: 415, 628");
+        System.out.println("Fun fact: San Francisco (SF) is known as \"The City by the Bay 🌊\".");
+    }
+
+    public static void seattle(){
+        System.out.println("City: Seattle, Washington");
+        System.out.println("Rank: 19th largest city in US");
+        System.out.println("Population: 3 million");
+        System.out.println("Area Code: 206");
+        System.out.println("Fun fact: Seattle (SEA) is known as the \"Emerald 💎✨City\".");
+    }
+
+    public static void denver(){
+        System.out.println("City: Denver, Colorado");
+        System.out.println("Rank: 20th largest city in US");
+        System.out.println("Population: 3 million");
+        System.out.println("Area Codes: 303, 720");
+        System.out.println("Fun fact: Denver (DEN) is known as the \"Mile-High City\".");
+    }
+
+    public static void washington(){
+        System.out.println("City: Washington, D.C.");
+        System.out.println("Rank: 21st largest city in US");
+        System.out.println("Population: 6.3 million");
+        System.out.println("Area Code: 202");
+        System.out.println("Fun fact: Washington DC is known as the \"The Capital City 🏛️\".");
     }
 
     // main method
@@ -241,8 +273,8 @@ public class AreaCodes {
                         break;
                     case 614:
                     case 380:
-                         columbus();
-                         break;
+                        columbus();
+                        break;
                     case 317:
                     case 463:
                         indianapolis();
@@ -250,6 +282,21 @@ public class AreaCodes {
                     case 704:
                     case 980:
                         charlotte();
+                        break;
+                    case 415:
+                    case 628:
+                        sanFrancisco();
+                        break;
+                    case 206:
+                        seattle();
+                        break;
+                    case 303:
+                    case 720:
+                        denver();
+                        break;
+                    case 202:
+                        washington();
+                        break;
                     default:
                         System.out.println("Area code not found.");
                 }
