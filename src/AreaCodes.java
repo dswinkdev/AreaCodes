@@ -7,6 +7,8 @@ public class AreaCodes {
 
         Scanner input = new Scanner(System.in);
 
+        String[] cities = {"Atlanta", "Chicago", "New York", "Los Angeles", "Las Vegas", "Miami"};
+
     }
 
 }
